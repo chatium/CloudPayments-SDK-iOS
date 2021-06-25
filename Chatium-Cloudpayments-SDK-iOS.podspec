@@ -10,7 +10,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Chatium-Cloudpayments-SDK-iOS"
-  spec.version      = "2.0.0"
+  spec.version      = "102.0.0"
   spec.summary      = "Core library that allows you to use internet acquiring from CloudPayments in your app"
   spec.description  = "Core library that allows you to use internet acquiring from CloudPayments in your app!"
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/cloudpayments/SDK-iOS/SDK-iOS.git", :tag => "#{spec.version}" }
   spec.source_files  = 'sdk/sdk/**/*.swift'
 
-  spec.resource_bundles = { 'Cloudpayments-SDK-iOS' => ['Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']}
+  spec.resource_bundles = { 'Chatium-Cloudpayments-SDK-iOS' => ['Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}']}
 
   spec.requires_arc = true
 
